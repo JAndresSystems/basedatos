@@ -42,7 +42,10 @@ public void Eliminar(int cc){
     }
 }
 public boolean buscar(int cc){
-    
+    if(cc ==0){
+        return false;
+    }
+
     for(int i=0;i<c.size();i++){
         if(c.get(i).getCedula()==cc){
             return true;
