@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author JAIRO MENDOZA
+ * @author JAIRO MENDOZA Actualizado
  */
 public class Control {
  public ArrayList<Cliente> c=new ArrayList();
